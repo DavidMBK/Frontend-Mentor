@@ -1,0 +1,136 @@
+*{
+	margin:0;
+	padding:0;
+	
+	
+	
+}
+
+.font{
+	
+		font-family: 'Fraunces', serif;
+		padding:2px;
+		font-size:1.75rem;
+		line-height:1.75rem;
+		
+}
+
+body{
+	
+	
+	
+	background-color: hsl(30, 38%, 92%);
+	
+}
+
+
+main{
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border:0px solid;
+	min-height:100vh;
+	
+}
+
+
+.box{
+	
+	background-color:white;
+	display:flex;
+	border:0px solid;
+	border-radius:10px;
+	justify-content:center;
+	overflow:hidden;
+	flex-direction:row;
+	position:relative;
+	width:500px;
+	height:370px;
+	text-align:center;
+	
+	
+}
+
+
+.box2{
+	display:flex;
+	text-align:left;
+	justify-content:left;
+	flex-direction:column;
+	margin:0px;
+	position:relative;
+	padding:30px 30px;
+	
+}
+
+
+
+
+p{
+	
+	font-size:0.7rem;
+	color:hsl(224, 23%, 55%);
+	text-align:left;
+
+	font-family: 'Montserrat', sans-serif;
+	
+	
+}
+
+.grid{
+	
+	display:grid;
+	grid-template-columns: 1fr 80px 1fr;
+	margin:2px;
+	text-align:center;
+	align-items:center;
+	
+	
+}
+
+.green{
+	
+	color:hsl(158, 36%, 37%);
+	font-family: 'Fraunces', serif;
+	font-weight:bold;	
+}
+
+
+.discount{
+	
+	font-weight:none;
+	font-size:0.7rem;
+	color:hsl(224, 23%, 55%);
+	text-decoration: line-through;
+	font-family: 'Fraunces', serif;
+
+}
+
+button{
+	
+	border:0px solid;
+	border-radius:7px;
+	display:flex;
+	background-color: hsl(158, 36%, 37%);
+	color:white;
+	width:200x;
+	height:40px;
+
+	cursor:pointer;
+	padding:15px 0px;
+	margin:0px;
+	word-spacing:0px;
+	align-items:center;
+	text-align:center;
+	font-family: 'Fraunces', serif;
+	justify-content:center;
+}
+
+
+button:hover{
+	
+	background-color:hsl(212, 21%, 14%);
+	
+	
+}
